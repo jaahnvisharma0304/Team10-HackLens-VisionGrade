@@ -1,47 +1,119 @@
-# VisionGrade
+# 🎯 VisionGrade - AI-Powered Assessment Platform
 
-## Revolutionizing Student Evaluation: A Smart and Inclusive Assessment Platform
+<div align="center">
 
-## Features
+[![JavaScript](https://img.shields.io/badge/JavaScript-42.8%25-f7df1e?style=flat-square&logo=javascript)](https://github.com/satwikkaushik/Team10-HackLens-VisionGrade)
+[![CSS](https://img.shields.io/badge/CSS-36.4%25-563d7c?style=flat-square&logo=css3)](https://github.com/satwikkaushik/Team10-HackLens-VisionGrade)
+[![TypeScript](https://img.shields.io/badge/TypeScript-11.3%25-3178c6?style=flat-square&logo=typescript)](https://github.com/satwikkaushik/Team10-HackLens-VisionGrade)
+[![Python](https://img.shields.io/badge/Python-9.3%25-3776ab?style=flat-square&logo=python)](https://github.com/satwikkaushik/Team10-HackLens-VisionGrade)
 
-### Submission Flexibility
+</div>
 
-- Students can submit their work in any format, including text, images, videos, and audio files.
-- Multilingual support
-- Context-aware extraction
+## 🚀 Overview
 
-### Intelligent Evaluation
+VisionGrade is a cutting-edge, AI-powered assessment platform designed to revolutionize the evaluation process for educational institutions and hackathon organizations. By leveraging advanced Language Learning Models (LLMs), VisionGrade provides automated, consistent, and scalable evaluation capabilities for various types of submissions including code, mathematics, and science projects.
 
-- Customizable rubric
-- Pre-defined and teacher-defined parameters
-- Comprehensive ranking system
+## ✨ Key Features
 
-### Personalization
+### 🤖 Intelligent Assessment
 
-- Individual student dashboards
-- Tailored feedback
-- Performance insights
+- **Multi-format Submission Support**: Accept submissions in various formats including text, audio, video, and code
+- **AI-Powered Evaluation**: Utilizes LLMs to generate solutions and extract key evaluation metrics
+- **Context-Aware Analysis**: Sophisticated content extraction and contextual evaluation
 
-### Collaboration
+### 👥 User Roles & Management
 
-- Teacher review and manual adjustment
-- Top achievers showcase
+- **Teacher Dashboard**: Create and manage events, monitor submissions, and intervene in evaluations
+- **Student Portal**: Easy submission interface with support for multiple formats
+- **Real-time Notifications**: Automated email alerts for new events and updates
 
-### X-Features
+### 🛠️ Technical Features
 
-- Multilingual support
-- Handwritten Character Recognisation
-- Updating Emails
-- Extracting context from videos and audio
-- Evaluation of Code
-- AI Chatbot
-- Personalised Feedback for students
+- **Secure Authentication**: Implements JWT for robust cookie-based authentication
+- **Responsive Design**: Elegant UI that adapts seamlessly to all device sizes
+- **Multi-language Support**: Evaluate submissions in various programming languages
 
-## Technologies Used
+## 🎯 Use Cases
 
-- **Frontend**: React.js
-- **Backend**: Node.js, Express.js, Flask
-- **Database**: MongoDB
-- **Machine Learning**: Extraction, Evaluation
+1. **Educational Assessment**
 
-## Thank you for reading
+   - Mathematics problem evaluation
+   - Science project assessment
+   - Programming assignments grading
+
+2. **Hackathon Management**
+
+   - Project submission handling
+   - Automated initial screening
+   - Standardized evaluation metrics
+
+3. **Competition Platform**
+   - Real-time submission tracking
+   - Automated scoring system
+   - Performance analytics
+
+## 🏗️ Architecture
+
+<img src="architecture.png">
+
+## 🔧 Tech Stack
+
+**Frontend**: React.js, TypeScript, CSS<br>
+**Backend**: Node.js, Flask<br>
+**Authentication**: JWT<br>
+**AI/ML**: Custom LLM Implementation<br>
+**Database**: MongoDB<br>
+**Email Service**: SMTP Integration using Nodemailer<br>
+
+<hr />
+
+# 🚀 Getting Started
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/satwikkaushik/Team10-HackLens-VisionGrade.git
+```
+
+2. Install dependencies
+
+```bash
+# Frontend
+cd frontend
+npm install
+
+# Backend
+cd backend
+pip install -r requirements.txt
+```
+
+3. Configure environment variables
+
+```bash
+cp .env.example .env
+# Add your configuration details
+```
+
+4. Run the application
+
+```bash
+# Frontend
+npm run dev
+
+# Backend
+npm run dev
+
+# AI/ML (Flask Server)
+python3 main.py
+```
+
+# 🌟 Why VisionGrade?
+
+**Scalability**: Handle thousands of submissions efficiently
+**Fairness**: Consistent evaluation criteria across all submissions
+**Time-Saving**: Automated assessment reduces manual evaluation time
+**Flexibility**: Support for multiple submission formats and languages
+**Security**: Robust authentication and data protection
+
+<hr />
+<div align="center"> Made with ❤️ by Team10-HackLens for Morgan Stanley Code to Give Hackathon 2025</div>
