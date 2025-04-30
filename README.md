@@ -80,7 +80,7 @@ VisionGrade is a cutting-edge, AI-powered assessment platform designed to revolu
 <img src="media_for_readme/teacher-dashboard.gif" width=800>
 
 **Event Creation Page**
-<img src="media_for_readme/create-event.gif" width=800>
+<img src="media_for_readme/event-creation.gif" width=800>
 
 # 🚀 Getting Started
 
