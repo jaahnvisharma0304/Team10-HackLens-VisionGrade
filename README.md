@@ -67,6 +67,21 @@ VisionGrade is a cutting-edge, AI-powered assessment platform designed to revolu
 
 <hr />
 
+# Preview
+
+**Landing Pages**
+<img src="media_for_readme/landing.png" width=800>
+<img src="media_for_readme/features.png" width=800>
+
+**Student Dashboard**
+<img src="media_for_readme/student-dash.png" width=800>
+
+**Teacher Dashboard & Results Page**
+<img src="media_for_readme/teacher-dashboard.gif" width=800>
+
+**Event Creation Page**
+<img src="media_for_readme/create-event.gif" width=800>
+
 # 🚀 Getting Started
 
 1. Clone the repository
