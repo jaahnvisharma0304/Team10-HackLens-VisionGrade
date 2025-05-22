@@ -58,7 +58,7 @@ VisionGrade is a cutting-edge, AI-powered assessment platform designed to revolu
 
 ## 🔧 Tech Stack
 
-**Frontend**: React.js, TypeScript, CSS<br>
+**Frontend**: React.js, CSS<br>
 **Backend**: Node.js, Flask<br>
 **Authentication**: JWT<br>
 **AI/ML**: Custom LLM Implementation<br>
